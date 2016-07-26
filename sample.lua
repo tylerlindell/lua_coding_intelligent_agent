@@ -18,6 +18,8 @@ local opt = cmd:parse(arg)
 
 local checkpoint = torch.load(opt.checkpoint)
 local model = checkpoint.model
+print(model);
+print('________________________________________________________________________________________________\n');
 
 local msg
 if opt.gpu >= 0 and opt.gpu_backend == 'cuda' then
@@ -40,3 +42,4 @@ model:evaluate()
 
 local sample = model:sample(opt)
 print(sample)
+print('\n________________________________________________________________________________________________');

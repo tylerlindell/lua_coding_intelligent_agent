@@ -1,0 +1,1 @@
+th sample.lua -checkpoint cv/checkpoint_13000.t7 -temperature 1 -gpu_backend opencl -verbose 1 -length 200 -start_text "fun"

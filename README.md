@@ -7,11 +7,6 @@ This was taken directly from torch-rnn and trained. For instructions on installa
 #Up and Running right now
 After installation by following the instruction on the [torch-rnn](https://github.com/jcjohnson/torch-rnn) readme, you will be able to run the sample from the most up-to-date trained model by following the instructions below.
 
-**with NVIDIA video card**
-
-- ```cd lua_coding_intelligent_agent```
-- ```th sample.lua -checkpoint cv/lua/checkpoint_280400.t7 -length 200 -temperature 1 -start_text "func"```
-
 **with non-NVIDIA video card**
 
 - ```cd lua_coding_intelligent_agent```

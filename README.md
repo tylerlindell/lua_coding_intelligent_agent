@@ -12,7 +12,7 @@ After installation by following the instruction on the [torch-rnn](https://githu
 - ```cd lua_coding_intelligent_agent```
 - ```th sample.lua -checkpoint cv/lua/checkpoint_280400.t7 -length 200 -temperature 1 -start_text "func"```
 
-**with other video card**
+**with non-NVIDIA video card**
 
 - ```cd lua_coding_intelligent_agent```
 - ```bash build.sh```

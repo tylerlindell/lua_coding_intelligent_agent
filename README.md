@@ -15,7 +15,7 @@ After installation by following the instruction on the [torch-rnn](https://githu
 **with other video card**
 
 - ```cd lua_coding_intelligent_agent```
-- ```th sample.lua -checkpoint cv/lua/checkpoint_280400.t7 -length 200 -temperature 1 -gpu -1 -start_text "func"```
+- ```bash build.sh```
 
 #TODO
 - More training of this agent can/should be done and submitted directly to this repository for others to improve upon.
